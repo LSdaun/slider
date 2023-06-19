@@ -1,0 +1,44 @@
+.body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,9,121,1) 41%, rgba(0,212,255,1) 100%);
+}
+.slider{
+    width: 720px;
+    height: 960px;
+    overflow: hidden;
+}
+.slider-line{
+    height: 960px;
+    width: 2160px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 0.5s;
+}
+.slider-btn-left{
+    background-image: url("arrow-left-square-fill.svg");
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+.slider-btn-right{
+    background-image: url("arrow-right-square-fill.svg");
+    border: none;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border-radius: 15px;
+    margin-right: 100px;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
